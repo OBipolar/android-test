@@ -8,39 +8,64 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="io.example.cs1333.MainActivity" >
 
-    <CheckBox
-        android:id="@+id/checkBox1"
+    <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="20dp"
-        android:text="CheckBox" />
+        android:text="Quiz0: Which class is this?"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <RatingBar
-        android:id="@+id/ratingBar1"
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginRight="34dp"
+        android:layout_marginTop="17dp"
+        android:text="CS1331" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/checkBox1"
         android:layout_below="@+id/checkBox1"
-        android:layout_marginLeft="45dp"
-        android:layout_marginTop="40dp" />
+        android:layout_marginTop="9dp"
+        android:text="CS1332" />
 
-    <Switch
-        android:id="@+id/switch1"
+    <CheckBox
+        android:id="@+id/checkBox3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/ratingBar1"
-        android:layout_below="@+id/ratingBar1"
-        android:layout_marginTop="49dp"
-        android:text="Switch" />
+        android:layout_alignLeft="@+id/checkBox2"
+        android:layout_below="@+id/checkBox2"
+        android:layout_marginTop="11dp"
+        android:text="CS1333" />
 
-    <DatePicker
-        android:id="@+id/datePicker1"
+    <Spinner
+        android:id="@+id/spinner1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="24dp" />
+        android:layout_marginBottom="157dp"
+        android:layout_marginRight="96dp"
+        android:layout_toLeftOf="@+id/checkBox3" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="84dp"
+        android:layout_marginRight="57dp"
+        android:layout_toLeftOf="@+id/checkBox3"
+        android:ems="10"
+        android:inputType="phone" >
+
+        <requestFocus />
+    </EditText>
 
 </RelativeLayout>
