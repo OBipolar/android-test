@@ -39,7 +39,7 @@
   </licenses>
 
   <developers>
-    <developer>
+<!--     <developer>
       <name>See homepage and mailinglist for contributors.</name>
       <id>maven-android-plugin-project</id>
       <url>http://code.google.com/p/maven-android-plugin</url>
@@ -55,25 +55,25 @@
       <roles>
         <role>Developer</role>
       </roles>
-    </developer>
+    </developer> -->
   </developers>
 
   <mailingLists>
-    <mailingList>
+<!--     <mailingList>
       <name>Maven Android Developers</name>
       <archive>http://groups.google.com/group/maven-android-developers/topics</archive>
-    </mailingList>
+    </mailingList> -->
   </mailingLists>
 
   <modules>
-    <module>apidemos-android-16</module>
+<!--     <module>apidemos-android-16</module>
     <module>helloflashlight</module>
     <module>morseflash</module>
     <module>scala</module>
     <module>libraryprojects</module>
     <module>native</module>
     <module>support4demos</module>
-    <module>tictactoe</module>
+    <module>tictactoe</module> -->
   </modules>
 
   <scm>
@@ -82,18 +82,18 @@
     <developerConnection>scm:git:ssh://git@github.com/jayway/maven-android-plugin-samples.git</developerConnection>
   </scm>
   <issueManagement>
-    <system>Google Code Issue Tracking</system>
-    <url>http://code.google.com/p/maven-android-plugin/issues/list</url>
+<!--     <system>Google Code Issue Tracking</system>
+    <url>http://code.google.com/p/maven-android-plugin/issues/list</url> -->
   </issueManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <scm.branch>master</scm.branch>
-    <maven.version>3.1.1</maven.version>
+    <maven.version>3.0.4</maven.version>
   </properties>
 
   <build>
-    <pluginManagement>
+<!--     <pluginManagement>
       <plugins>
         <plugin>
           <groupId>com.jayway.maven.plugins.android.generation2</groupId>
@@ -102,8 +102,8 @@
         </plugin>
       </plugins>
     </pluginManagement>
-    <plugins>
-      <plugin>
+    <plugins> -->
+      <!-- <plugin>
         <artifactId>maven-scm-plugin</artifactId>
         <configuration>
           <scmVersionType>branch</scmVersionType>
@@ -148,7 +148,7 @@
           </execution>
         </executions>
       </plugin>
-    </plugins>
+    </plugins> -->
   </build>
 
 </project>
